@@ -1,0 +1,15 @@
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\bin\Debug\Weather-Forecast-Live.exe.config
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\bin\Debug\Weather-Forecast-Live.exe
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\bin\Debug\Weather-Forecast-Live.pdb
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.csprojResolveAssemblyReference.cache
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\MainWindow.g.cs
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\App.g.cs
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live_MarkupCompile.cache
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live_MarkupCompile.lref
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\MainWindow.baml
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.g.resources
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather_Forecast_Live.Properties.Resources.resources
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.csproj.GenerateResource.Cache
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.csproj.CoreCompileInputs.cache
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.exe
+C:\Users\Mathias Lüer\source\repos\Weather-Forecast-Live\Weather-Forecast-Live\obj\Debug\Weather-Forecast-Live.pdb
