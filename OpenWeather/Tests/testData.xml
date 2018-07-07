@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<weatherdata>
+  <location>
+    <name>Selm</name>
+    <type></type>
+    <country>DE</country>
+    <timezone></timezone>
+    <location altitude="0" latitude="51.7006" longitude="7.4686" geobase="geonames" geobaseid="2833170"></location>
+  </location>
+  <credit></credit>
+  <meta>
+    <lastupdate></lastupdate>
+    <calctime>0.0025</calctime>
+    <nextupdate></nextupdate>
+  </meta>
+  <sun rise="2018-07-07T03:21:27" set="2018-07-07T19:48:17"></sun>
+  <forecast>
+    <time from="2018-07-07T12:00:00" to="2018-07-07T15:00:00">
+      <symbol number="801" name="Ein paar Wolken" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="330.003" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="4.21" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="26.2" min="24.1" max="26.2"></temperature>
+      <pressure unit="hPa" value="1026.23"></pressure>
+      <humidity value="51" unit="%"></humidity>
+      <clouds value="Ein paar Wolken" all="12" unit="%"></clouds>
+    </time>
+    <time from="2018-07-07T15:00:00" to="2018-07-07T18:00:00">
+      <symbol number="800" name="Klarer Himmel" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="337.003" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="4.21" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="24.45" min="22.87" max="24.45"></temperature>
+      <pressure unit="hPa" value="1026.29"></pressure>
+      <humidity value="46" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="8" unit="%"></clouds>
+    </time>
+    <time from="2018-07-07T18:00:00" to="2018-07-07T21:00:00">
+      <symbol number="800" name="Klarer Himmel" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="355.5" code="" name=""></windDirection>
+      <windSpeed mps="3.66" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="18.5" min="17.45" max="18.5"></temperature>
+      <pressure unit="hPa" value="1027"></pressure>
+      <humidity value="45" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="8" unit="%"></clouds>
+    </time>
+    <time from="2018-07-07T21:00:00" to="2018-07-08T00:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="6.00436" code="N" name="North"></windDirection>
+      <windSpeed mps="2.61" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="13.93" min="13.4" max="13.93"></temperature>
+      <pressure unit="hPa" value="1027.6"></pressure>
+      <humidity value="58" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T00:00:00" to="2018-07-08T03:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="8.51196" code="N" name="North"></windDirection>
+      <windSpeed mps="2.07" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="10.56" min="10.56" max="10.56"></temperature>
+      <pressure unit="hPa" value="1028.06"></pressure>
+      <humidity value="80" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T03:00:00" to="2018-07-08T06:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="13.5028" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="2.02" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="13.83" min="13.83" max="13.83"></temperature>
+      <pressure unit="hPa" value="1028.57"></pressure>
+      <humidity value="74" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T06:00:00" to="2018-07-08T09:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="354.501" code="" name=""></windDirection>
+      <windSpeed mps="2.42" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="18.48" min="18.48" max="18.48"></temperature>
+      <pressure unit="hPa" value="1028.57"></pressure>
+      <humidity value="73" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T09:00:00" to="2018-07-08T12:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="348" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="3.41" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="22.48" min="22.48" max="22.48"></temperature>
+      <pressure unit="hPa" value="1027.84"></pressure>
+      <humidity value="59" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T12:00:00" to="2018-07-08T15:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="355.501" code="" name=""></windDirection>
+      <windSpeed mps="3.65" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="24.41" min="24.41" max="24.41"></temperature>
+      <pressure unit="hPa" value="1026.98"></pressure>
+      <humidity value="49" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T15:00:00" to="2018-07-08T18:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="359.001" code="" name=""></windDirection>
+      <windSpeed mps="3.51" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="23.56" min="23.56" max="23.56"></temperature>
+      <pressure unit="hPa" value="1026.54"></pressure>
+      <humidity value="44" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T18:00:00" to="2018-07-08T21:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="6.50244" code="N" name="North"></windDirection>
+      <windSpeed mps="4.01" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="18.51" min="18.51" max="18.51"></temperature>
+      <pressure unit="hPa" value="1027.34"></pressure>
+      <humidity value="47" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-08T21:00:00" to="2018-07-09T00:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="9.50079" code="N" name="North"></windDirection>
+      <windSpeed mps="2.67" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="14.54" min="14.54" max="14.54"></temperature>
+      <pressure unit="hPa" value="1027.88"></pressure>
+      <humidity value="58" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T00:00:00" to="2018-07-09T03:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="337.503" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="1.27" name="Calm"></windSpeed>
+      <temperature unit="celsius" value="11.29" min="11.29" max="11.29"></temperature>
+      <pressure unit="hPa" value="1027.62"></pressure>
+      <humidity value="79" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T03:00:00" to="2018-07-09T06:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="278.501" code="W" name="West"></windDirection>
+      <windSpeed mps="2.01" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="16.23" min="16.23" max="16.23"></temperature>
+      <pressure unit="hPa" value="1027.54"></pressure>
+      <humidity value="62" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T06:00:00" to="2018-07-09T09:00:00">
+      <symbol number="801" name="Ein paar Wolken" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="312.501" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="3.31" name=""></windSpeed>
+      <temperature unit="celsius" value="21.27" min="21.27" max="21.27"></temperature>
+      <pressure unit="hPa" value="1026.66"></pressure>
+      <humidity value="70" unit="%"></humidity>
+      <clouds value="Ein paar Wolken" all="24" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T09:00:00" to="2018-07-09T12:00:00">
+      <symbol number="802" name="Überwiegend bewölkt" var="03d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="334" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="3.76" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="24.56" min="24.56" max="24.56"></temperature>
+      <pressure unit="hPa" value="1025.13"></pressure>
+      <humidity value="63" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="44" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T12:00:00" to="2018-07-09T15:00:00">
+      <symbol number="804" name="Wolkenbedeckt" var="04d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="330.001" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="6.16" name="Moderate breeze"></windSpeed>
+      <temperature unit="celsius" value="22.81" min="22.81" max="22.81"></temperature>
+      <pressure unit="hPa" value="1024.39"></pressure>
+      <humidity value="59" unit="%"></humidity>
+      <clouds value="Wolkenbedeckt" all="92" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T15:00:00" to="2018-07-09T18:00:00">
+      <symbol number="801" name="Ein paar Wolken" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="322.502" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="6.37" name="Moderate breeze"></windSpeed>
+      <temperature unit="celsius" value="21.5" min="21.5" max="21.5"></temperature>
+      <pressure unit="hPa" value="1023.48"></pressure>
+      <humidity value="52" unit="%"></humidity>
+      <clouds value="Ein paar Wolken" all="12" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T18:00:00" to="2018-07-09T21:00:00">
+      <symbol number="800" name="Klarer Himmel" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="329.503" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="5.2" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="16.44" min="16.44" max="16.44"></temperature>
+      <pressure unit="hPa" value="1024.13"></pressure>
+      <humidity value="51" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="8" unit="%"></clouds>
+    </time>
+    <time from="2018-07-09T21:00:00" to="2018-07-10T00:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="329.003" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="4.36" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="12.91" min="12.91" max="12.91"></temperature>
+      <pressure unit="hPa" value="1024.28"></pressure>
+      <humidity value="73" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T00:00:00" to="2018-07-10T03:00:00">
+      <symbol number="500" name="Leichter Regen" var="10n"></symbol>
+      <precipitation unit="3h" value="0.02" type="rain"></precipitation>
+      <windDirection deg="302.503" code="WNW" name="West-northwest"></windDirection>
+      <windSpeed mps="4.21" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="11.69" min="11.69" max="11.69"></temperature>
+      <pressure unit="hPa" value="1023.31"></pressure>
+      <humidity value="86" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="44" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T03:00:00" to="2018-07-10T06:00:00">
+      <symbol number="500" name="Leichter Regen" var="10d"></symbol>
+      <precipitation unit="3h" value="0.25" type="rain"></precipitation>
+      <windDirection deg="292.503" code="WNW" name="West-northwest"></windDirection>
+      <windSpeed mps="5.7" name="Moderate breeze"></windSpeed>
+      <temperature unit="celsius" value="13.95" min="13.95" max="13.95"></temperature>
+      <pressure unit="hPa" value="1022.33"></pressure>
+      <humidity value="78" unit="%"></humidity>
+      <clouds value="Wolkenbedeckt" all="92" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T06:00:00" to="2018-07-10T09:00:00">
+      <symbol number="500" name="Leichter Regen" var="10d"></symbol>
+      <precipitation unit="3h" value="0.34" type="rain"></precipitation>
+      <windDirection deg="313.001" code="NW" name="Northwest"></windDirection>
+      <windSpeed mps="6.42" name="Moderate breeze"></windSpeed>
+      <temperature unit="celsius" value="16.7" min="16.7" max="16.7"></temperature>
+      <pressure unit="hPa" value="1021.26"></pressure>
+      <humidity value="79" unit="%"></humidity>
+      <clouds value="Wolkenbedeckt" all="92" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T09:00:00" to="2018-07-10T12:00:00">
+      <symbol number="500" name="Leichter Regen" var="10d"></symbol>
+      <precipitation unit="3h" value="0.02" type="rain"></precipitation>
+      <windDirection deg="355.503" code="" name=""></windDirection>
+      <windSpeed mps="5.45" name=""></windSpeed>
+      <temperature unit="celsius" value="22.71" min="22.71" max="22.71"></temperature>
+      <pressure unit="hPa" value="1020.72"></pressure>
+      <humidity value="64" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="68" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T12:00:00" to="2018-07-10T15:00:00">
+      <symbol number="803" name="Überwiegend bewölkt" var="04d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="13.003" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="6.21" name="Moderate breeze"></windSpeed>
+      <temperature unit="celsius" value="23.28" min="23.28" max="23.28"></temperature>
+      <pressure unit="hPa" value="1021.11"></pressure>
+      <humidity value="54" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="80" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T15:00:00" to="2018-07-10T18:00:00">
+      <symbol number="803" name="Überwiegend bewölkt" var="04d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="24.0028" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="5.36" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="21.96" min="21.96" max="21.96"></temperature>
+      <pressure unit="hPa" value="1022.08"></pressure>
+      <humidity value="53" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="56" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T18:00:00" to="2018-07-10T21:00:00">
+      <symbol number="800" name="Klarer Himmel" var="02n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="21.004" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="3.57" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="18.67" min="18.67" max="18.67"></temperature>
+      <pressure unit="hPa" value="1023.45"></pressure>
+      <humidity value="54" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="8" unit="%"></clouds>
+    </time>
+    <time from="2018-07-10T21:00:00" to="2018-07-11T00:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="9.00113" code="N" name="North"></windDirection>
+      <windSpeed mps="2.21" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="14.05" min="14.05" max="14.05"></temperature>
+      <pressure unit="hPa" value="1024.03"></pressure>
+      <humidity value="69" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T00:00:00" to="2018-07-11T03:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="345.502" code="NNW" name="North-northeast"></windDirection>
+      <windSpeed mps="1.56" name=""></windSpeed>
+      <temperature unit="celsius" value="11.22" min="11.22" max="11.22"></temperature>
+      <pressure unit="hPa" value="1024.28"></pressure>
+      <humidity value="89" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T03:00:00" to="2018-07-11T06:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="8.00256" code="N" name="North"></windDirection>
+      <windSpeed mps="1.97" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="16.38" min="16.38" max="16.38"></temperature>
+      <pressure unit="hPa" value="1024.56"></pressure>
+      <humidity value="69" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T06:00:00" to="2018-07-11T09:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="23.5014" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="2.56" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="22.32" min="22.32" max="22.32"></temperature>
+      <pressure unit="hPa" value="1024.37"></pressure>
+      <humidity value="66" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T09:00:00" to="2018-07-11T12:00:00">
+      <symbol number="800" name="Klarer Himmel" var="02d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="36.5067" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="3.71" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="25.1" min="25.1" max="25.1"></temperature>
+      <pressure unit="hPa" value="1023.38"></pressure>
+      <humidity value="58" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="8" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T12:00:00" to="2018-07-11T15:00:00">
+      <symbol number="802" name="Überwiegend bewölkt" var="03d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="34.0003" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="3.92" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="25.85" min="25.85" max="25.85"></temperature>
+      <pressure unit="hPa" value="1022.51"></pressure>
+      <humidity value="50" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="48" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T15:00:00" to="2018-07-11T18:00:00">
+      <symbol number="803" name="Überwiegend bewölkt" var="04d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="24.502" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="3.56" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="24.7" min="24.7" max="24.7"></temperature>
+      <pressure unit="hPa" value="1022.48"></pressure>
+      <humidity value="46" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="76" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T18:00:00" to="2018-07-11T21:00:00">
+      <symbol number="804" name="Wolkenbedeckt" var="04n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="48.0008" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="3.87" name="Gentle Breeze"></windSpeed>
+      <temperature unit="celsius" value="22.71" min="22.71" max="22.71"></temperature>
+      <pressure unit="hPa" value="1023.32"></pressure>
+      <humidity value="48" unit="%"></humidity>
+      <clouds value="Wolkenbedeckt" all="92" unit="%"></clouds>
+    </time>
+    <time from="2018-07-11T21:00:00" to="2018-07-12T00:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="36.5007" code="NE" name="NorthEast"></windDirection>
+      <windSpeed mps="3.17" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="19.56" min="19.56" max="19.56"></temperature>
+      <pressure unit="hPa" value="1023.8"></pressure>
+      <humidity value="60" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-12T00:00:00" to="2018-07-12T03:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01n"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="20.501" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="2.96" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="15.92" min="15.92" max="15.92"></temperature>
+      <pressure unit="hPa" value="1024.17"></pressure>
+      <humidity value="80" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-12T03:00:00" to="2018-07-12T06:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="33.0015" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="2.22" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="17.91" min="17.91" max="17.91"></temperature>
+      <pressure unit="hPa" value="1024.79"></pressure>
+      <humidity value="71" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-12T06:00:00" to="2018-07-12T09:00:00">
+      <symbol number="800" name="Klarer Himmel" var="01d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="26.5063" code="NNE" name="North-northeast"></windDirection>
+      <windSpeed mps="2.06" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="23.69" min="23.69" max="23.69"></temperature>
+      <pressure unit="hPa" value="1024.73"></pressure>
+      <humidity value="67" unit="%"></humidity>
+      <clouds value="Klarer Himmel" all="0" unit="%"></clouds>
+    </time>
+    <time from="2018-07-12T09:00:00" to="2018-07-12T12:00:00">
+      <symbol number="802" name="Überwiegend bewölkt" var="03d"></symbol>
+      <precipitation></precipitation>
+      <windDirection deg="57.0002" code="ENE" name="East-northeast"></windDirection>
+      <windSpeed mps="2.11" name="Light breeze"></windSpeed>
+      <temperature unit="celsius" value="25.82" min="25.82" max="25.82"></temperature>
+      <pressure unit="hPa" value="1024.09"></pressure>
+      <humidity value="61" unit="%"></humidity>
+      <clouds value="Überwiegend bewölkt" all="36" unit="%"></clouds>
+    </time>
+  </forecast>
+</weatherdata>
