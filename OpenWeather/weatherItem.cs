@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 /*
  * <time from="2018-07-07T12:00:00" to="2018-07-07T15:00:00">
       <symbol number="801" name="Ein paar Wolken" var="02d"></symbol>
