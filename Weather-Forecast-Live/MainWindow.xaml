@@ -5,8 +5,219 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Weather_Forecast_Live"
         mc:Ignorable="d"
-        Title="MainWindow" Foreground="White" Background="#FF1E272C">
-    <Grid>
+        Title="Weather Forecast Live" Foreground="White" Background="#FF1E272C"  Width="1600" MinWidth="1600" MaxWidth="1600" Icon="Oxygen-Icons.org-Oxygen-Status-weather-showers-day.ico">
+    <Grid Name="gMain" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Name="wpHeader" Grid.Row="0">
+            <TextBlock  Foreground="White" FontSize="32">Wettervorhersage für</TextBlock>
+            <TextBlock  Foreground="White" FontSize="32" Text="{Binding Name}" Margin="10,0"></TextBlock>
+            <TextBlock  Foreground="White" FontSize="32">, </TextBlock>
+            <TextBlock  Foreground="White" FontSize="32" Text="{Binding Country}" Margin="10,0"></TextBlock>
+        </WrapPanel>
         
+        <TabControl Foreground="White" Background="#FF1E272C" Grid.Row="1" BorderThickness="0">
+            <TabItem Header="5 Tage Vorhersage"  ScrollViewer.VerticalScrollBarVisibility="auto">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" VerticalAlignment="Stretch" Height="auto">
+                        <TextBlock FontSize="56" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" Text="Heute"/>
+                        <ListBox Name="lbToday" Foreground="White" Background="#FF1E272C" BorderThickness="0"  Height="550" ScrollViewer.VerticalScrollBarVisibility="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Column="0">
+                                        <WrapPanel>
+                                            <TextBlock FontSize="52" Text="{Binding Path=From.Hour }"/>
+                                            <TextBlock FontSize="52" Text="Uhr" Margin="10,0"/>
+                                        </WrapPanel>
+
+                                        <WrapPanel>
+                                            <Image Source="{Binding Path=Icon}" Width="100" Height="100"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=Temperature}"/>
+                                                    <TextBlock FontSize="48" Text="°"/>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="15" Text="Min:" Margin="0,0,5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMin}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                    <TextBlock FontSize="15" Text="| Max:" Margin="5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMax}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" VerticalAlignment="Stretch" Height="auto" CanHorizontallyScroll="True">
+                        <TextBlock FontSize="56" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" Text="Morgen"/>
+                        <ListBox Name="lbDayOne" Foreground="White" Background="#FF1E272C" BorderThickness="0" VerticalAlignment="Stretch" Height="550" ScrollViewer.VerticalScrollBarVisibility="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Column="0">
+                                        <WrapPanel>
+                                            <TextBlock FontSize="52" Text="{Binding Path=From.Hour }"/>
+                                            <TextBlock FontSize="52" Text="Uhr" Margin="10,0"/>
+                                        </WrapPanel>
+
+                                        <WrapPanel>
+                                            <Image Source="{Binding Path=Icon}" Width="100" Height="100"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=Temperature}"/>
+                                                    <TextBlock FontSize="48" Text="°"/>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="15" Text="Min:" Margin="0,0,5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMin}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                    <TextBlock FontSize="15" Text="| Max:" Margin="5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMax}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" VerticalAlignment="Stretch" Height="auto" CanHorizontallyScroll="True">
+                        <TextBlock FontSize="56" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" Text="Tag 2"/>
+                        <ListBox Name="lbDayTwo" Foreground="White" Background="#FF1E272C" BorderThickness="0" VerticalAlignment="Stretch" Height="550" ScrollViewer.VerticalScrollBarVisibility="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Column="0">
+                                        <WrapPanel>
+                                            <TextBlock FontSize="52" Text="{Binding Path=From.Hour }"/>
+                                            <TextBlock FontSize="52" Text="Uhr" Margin="10,0"/>
+                                        </WrapPanel>
+
+                                        <WrapPanel>
+                                            <Image Source="{Binding Path=Icon}" Width="100" Height="100"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=Temperature}"/>
+                                                    <TextBlock FontSize="48" Text="°"/>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="15" Text="Min:" Margin="0,0,5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMin}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                    <TextBlock FontSize="15" Text="| Max:" Margin="5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMax}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3" VerticalAlignment="Stretch" Height="auto" CanHorizontallyScroll="True">
+                        <TextBlock FontSize="56" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" Text="Tag 3"/>
+                        <ListBox Name="lbDayThree" Foreground="White" Background="#FF1E272C" BorderThickness="0" VerticalAlignment="Stretch" Height="550" ScrollViewer.VerticalScrollBarVisibility="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Column="0">
+                                        <WrapPanel>
+                                            <TextBlock FontSize="52" Text="{Binding Path=From.Hour }"/>
+                                            <TextBlock FontSize="52" Text="Uhr" Margin="10,0"/>
+                                        </WrapPanel>
+
+                                        <WrapPanel>
+                                            <Image Source="{Binding Path=Icon}" Width="100" Height="100"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=Temperature}"/>
+                                                    <TextBlock FontSize="48" Text="°"/>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="15" Text="Min:" Margin="0,0,5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMin}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                    <TextBlock FontSize="15" Text="| Max:" Margin="5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMax}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="4" VerticalAlignment="Stretch" Height="auto" CanHorizontallyScroll="True">
+                        <TextBlock FontSize="56" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" Text="Tag 4"/>
+                        <ListBox Name="lbDayFour" Foreground="White" Background="#FF1E272C" BorderThickness="0" VerticalAlignment="Stretch" Height="550" ScrollViewer.VerticalScrollBarVisibility="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Column="0">
+                                        <WrapPanel>
+                                            <TextBlock FontSize="52" Text="{Binding Path=From.Hour }"/>
+                                            <TextBlock FontSize="52" Text="Uhr" Margin="10,0"/>
+                                        </WrapPanel>
+
+                                        <WrapPanel>
+                                            <Image Source="{Binding Path=Icon}" Width="100" Height="100"/>
+                                            <StackPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=Temperature}"/>
+                                                    <TextBlock FontSize="48" Text="°"/>
+                                                    <TextBlock FontSize="48" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                                <WrapPanel>
+                                                    <TextBlock FontSize="15" Text="Min:" Margin="0,0,5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMin}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                    <TextBlock FontSize="15" Text="| Max:" Margin="5,0"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureMax}"/>
+                                                    <TextBlock FontSize="15" Text="°"/>
+                                                    <TextBlock FontSize="15" Text="{Binding Path=TemperatureUnit}"/>
+                                                </WrapPanel>
+                                            </StackPanel>
+                                        </WrapPanel>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            
+            
+        </TabControl>
     </Grid>
 </Window>
+

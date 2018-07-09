@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OpenWeather
 {
-    class GeoLocation
+    public class GeoLocation
     {
         public int Altitude { get; set; }
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
         public string Geobase { get; set; }
         public long GeobaseID { get; set; }
     }

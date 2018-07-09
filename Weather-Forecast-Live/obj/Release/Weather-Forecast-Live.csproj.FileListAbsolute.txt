@@ -1,0 +1,17 @@
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\MainWindow.g.cs
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\App.g.cs
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live_MarkupCompile.cache
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live_MarkupCompile.lref
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.csprojResolveAssemblyReference.cache
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\bin\Release\Weather-Forecast-Live.exe.config
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\bin\Release\Weather-Forecast-Live.exe
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\bin\Release\Weather-Forecast-Live.pdb
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\bin\Release\OpenWeather.dll
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\bin\Release\OpenWeather.pdb
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\MainWindow.baml
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.g.resources
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather_Forecast_Live.Properties.Resources.resources
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.csproj.GenerateResource.Cache
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.csproj.CoreCompileInputs.cache
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.exe
+F:\programierung\Csharp\Weather-ForeCast-Live\Weather-Forecast-Live\obj\Release\Weather-Forecast-Live.pdb

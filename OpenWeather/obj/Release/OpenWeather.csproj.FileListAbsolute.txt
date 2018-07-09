@@ -1,0 +1,5 @@
+F:\programierung\Csharp\Weather-ForeCast-Live\OpenWeather\obj\Release\OpenWeather.csproj.CoreCompileInputs.cache
+F:\programierung\Csharp\Weather-ForeCast-Live\OpenWeather\bin\Release\OpenWeather.dll
+F:\programierung\Csharp\Weather-ForeCast-Live\OpenWeather\bin\Release\OpenWeather.pdb
+F:\programierung\Csharp\Weather-ForeCast-Live\OpenWeather\obj\Release\OpenWeather.dll
+F:\programierung\Csharp\Weather-ForeCast-Live\OpenWeather\obj\Release\OpenWeather.pdb

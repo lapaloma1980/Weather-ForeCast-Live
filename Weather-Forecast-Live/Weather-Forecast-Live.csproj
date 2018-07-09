@@ -93,5 +93,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenWeather\OpenWeather.csproj">
+      <Project>{2d3df0ad-2885-4449-a19c-4fe706f8a219}</Project>
+      <Name>OpenWeather</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Oxygen-Icons.org-Oxygen-Status-weather-showers-day.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
